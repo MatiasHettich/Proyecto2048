@@ -6,13 +6,36 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_ficha_2</sprite>
-    <sprite>sprites\spr_ficha_4</sprite>
-    <sprite>sprites\spr_ficha_8</sprite>
-    <sprite>sprites\spr_ficha_16</sprite>
+    <sprites name="fichas">
+      <sprite>sprites\spr_ficha_2</sprite>
+      <sprite>sprites\spr_ficha_4</sprite>
+      <sprite>sprites\spr_ficha_8</sprite>
+      <sprite>sprites\spr_ficha_16</sprite>
+      <sprite>sprites\spr_ficha_32</sprite>
+    </sprites>
+    <sprites name="tableros">
+      <sprite>sprites\spr_tablero</sprite>
+    </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bck_fondo_mesa</background>
+  </backgrounds>
   <paths name="paths"/>
+  <objects name="objects">
+    <objects name="fichas">
+      <object>objects\obj_ficha_2</object>
+      <object>objects\obj_ficha_4</object>
+      <object>objects\obj_ficha_8</object>
+      <object>objects\obj_ficha_16</object>
+      <object>objects\obj_ficha_32</object>
+    </objects>
+    <objects name="tableros">
+      <object>objects\obj_tablero</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\stg_test</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
